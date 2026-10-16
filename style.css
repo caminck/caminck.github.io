@@ -77,6 +77,15 @@ a:link, a:visited {
     border-width: 2px;
   }
 
+.card{
+    background-color: var(--color-surface);
+    width: fit-content;
+    height: fit-content;
+    border-style: solid;
+    border-color: var(--color-secondary);
+    border-width: 2px;
+  }
+
   ul{
     color: var(--color-text);
     background-color:var(--color-surface);
