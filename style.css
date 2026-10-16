@@ -1,0 +1,87 @@
+:root{
+    --color-primary:#A04BC2; /*violetti*/
+    --color-secondary: #006BC2; /*sininen*/
+    --color-accent: #C72489; /*pinkki*/
+    --color-baground: #FFFFFF; /*valkoinen*/
+    --color-surface: #F6F6EE; /*harmaa*/
+    --color-text: #000000; /*musta*/
+    --color-text-secondary: #FFFFFF; /*valkoinen*/
+    --color-border: #F6F6EE; /*harmaa*/
+}
+
+.liter-regular {
+  font-family: "Liter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.container img{
+  max-width:150px ;
+  width:10% ;
+  margin-right: 15px ;}
+.container{
+  display: flex;
+  align-items: center;
+}
+
+body {color: var(--color-text);
+    background-color:var(--color-baground);
+    font-family:'Liter', sans-serif;}
+
+h1 {color: var(--color-primary);
+background-color: var(--color-baground);
+font-family:'Liter', sans-serif;}
+
+h2{color: var(--color-accent);
+background-color: var(--color-baground);
+font-family:'Liter', sans-serif;}
+ 
+p{color:var(--color-text);
+background-color: var(--color-border);
+font-family:'Liter', sans-serif;
+border-left: #C72489;
+border-width: 10cm;}
+
+a:link, a:visited {
+  color: var(--color-text);
+  background-color: var(--color-surface);
+  text-align: left;
+  text-decoration: none;}
+a:link, a:visited {
+  color: var(--color-text);
+  background-color: var(--color-surface)
+  ;
+  text-align: left;
+  text-decoration: none;}
+
+  button{color: var(--color-text);
+  background-color: var(--color-surface);
+  border: 2px solid #006BC2;
+}
+
+  .card{
+    background-color: var(--color-surface);
+    width: 500px;
+    height: fit-content;
+    border-style: solid;
+    border-color: var(--color-secondary);
+    border-width: 2px;
+  }
+
+  ul{
+    color: var(--color-text);
+    background-color:var(--color-surface);
+    width: 400px;
+    list-style-type:none;
+  }
+
+  
