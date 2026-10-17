@@ -65,8 +65,7 @@ a:link, a:visited {
   text-decoration: none;}
 a:link, a:visited {
   color: var(--color-text);
-  background-color: var(--color-surface)
-  ;
+  background-color: var(--color-surface);
   text-align: center;
   text-decoration: none;}
 
